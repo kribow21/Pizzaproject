@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #F3E9DC;
+}
+
+nav #hamburgernav {
+  display: none;
+  position: absolute;
+  top: 54px;
+  background-color: #069D4A;
+  height: 20vh;
+  width: 50vw;
+}
+
+nav #navToggle:checked ~ #hamburgernav {
+  display: block;
+}
+
+nav #navToggle {
+  display: none;
+}
+
+nav #hamburgernav > a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  color: #F3E9DC;
+}
+
+nav #logo {
+  height: 7vh;
+  padding-left: 105px;
+}
+
+main .mainphoto {
+  height: 70vw;
+}
+
+main .mapouter {
+  position: relative;
+  text-align: right;
+  height: 296px;
+  width: 319px;
+}
+
+main .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 296px;
+  width: 319px;
+}
+/*# sourceMappingURL=index.css.map */
