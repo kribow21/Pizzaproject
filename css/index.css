@@ -3,18 +3,28 @@
   padding: 0;
 }
 
-nav {
+body {
   background-color: #F3E9DC;
+}
+
+nav {
+  background-color: #069D4A;
 }
 
 nav #hamburgernav {
   display: none;
   position: absolute;
-  top: 54px;
+  top: 70px;
   background-color: #069D4A;
-  height: 22vh;
+  height: 27vh;
   width: 50vw;
   z-index: 2;
+}
+
+nav #hamicon {
+  position: relative;
+  left: 10px;
+  bottom: 10px;
 }
 
 nav #navToggle:checked ~ #hamburgernav {
@@ -28,14 +38,15 @@ nav #navToggle {
 nav #hamburgernav > a {
   display: block;
   text-decoration: none;
+  font-size: 1.5rem;
   padding: 15px;
   color: #F3E9DC;
   font-family: "Cormorant Upright", serif;
 }
 
 nav #logo {
-  height: 7vh;
-  padding-left: 105px;
+  height: 10vh;
+  padding-left: 89px;
 }
 
 main .mainphoto {
@@ -71,30 +82,47 @@ main h2 {
   padding: 10px;
   position: relative;
   left: 90px;
+  text-align: center;
+  background-color: #AE1C09;
 }
 
 .contactinfo h3 {
   font-family: "Cormorant Upright", serif;
+  font-size: 1.5rem;
+  color: #F3E9DC;
+  padding-bottom: 10px;
+}
+
+.contactinfo a {
+  text-decoration: none;
+  color: #F3E9DC;
 }
 
 .hours {
   display: block;
-  width: 20vw;
-  height: 45vh;
+  width: 25vw;
+  height: 55vh;
   position: relative;
-  left: 115px;
+  left: 105px;
   padding: 20px;
   border-style: solid;
   border-color: #702632;
   margin-top: 15px;
+  background-color: #AE1C09;
+  text-align: center;
+  color: #F3E9DC;
 }
 
 .hours h3 {
   font-family: "Cormorant Upright", serif;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
 }
 
 .hours b {
   font-family: "Cormorant Upright", serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
 
 .hours p {
@@ -110,10 +138,14 @@ main h2 {
   border-style: solid;
   border-color: #702632;
   margin-bottom: 20px;
+  background-color: #AE1C09;
+  color: #F3E9DC;
 }
 
 .address h3 {
   font-family: "Cormorant Upright", serif;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
 }
 
 .address p {
@@ -146,10 +178,23 @@ main h2 {
   right: 30px;
   background-color: #069D4A;
   border-radius: 8px;
+  text-decoration: none;
+  color: #F3E9DC;
+  padding-top: 15px;
+  padding-left: 10px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.1rem;
+  border-style: solid;
+  border-color: #702632;
 }
 
 footer {
   font-family: 'Dosis', sans-serif;
-  background-color: #F3E9DC;
+  background-color: #069D4A;
+}
+
+footer a {
+  text-decoration: none;
+  color: #F3E9DC;
 }
 /*# sourceMappingURL=index.css.map */
