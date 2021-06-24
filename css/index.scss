@@ -1,0 +1,110 @@
+$wine: #702632;
+$bigfont:'Cormorant Upright', serif;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #F3E9DC ;
+
+    #hamburgernav{
+        display: none;
+        position: absolute;
+        top: 54px;
+        background-color: #069D4A;
+        height: 22vh;
+        width: 50vw;
+        z-index: 2;
+    }
+    #navToggle:checked ~ #hamburgernav{
+        display: block;
+    }
+    #navToggle{
+        display: none;
+    }
+    #hamburgernav > a{
+        display: block;
+        text-decoration: none;
+        padding: 15px;
+        color: #F3E9DC;
+        font-family: $bigfont;
+        
+    }
+    #logo{
+        height: 7vh;
+        padding-left: 105px;
+    }
+}
+main{
+    .mainphoto{
+        height: 70vw;
+        position: relative;
+        left: 20px;
+        border:solid #AE1C09;
+    }
+    h1{
+        font-family:$bigfont;
+        font-size: 2rem;
+        position: relative;
+        left: 25px;
+        padding: 15px;
+        color: $wine;
+        width: 80vw;
+    }
+    h2{
+        font-family: $bigfont;
+        color: $wine;
+        text-align: center;
+    }
+
+}
+.contactinfo{
+    h3{
+        font-family: $bigfont;
+
+    }
+}
+.hours{
+    h3{
+        font-family: $bigfont;
+    }
+    b{
+        font-family: $bigfont;
+    }
+    p{
+        font-family: 'Dosis', sans-serif;
+    }
+}
+.address{
+    h3{
+        font-family: $bigfont;
+    }
+    p{
+        font-family: 'Dosis', sans-serif;
+    }
+}
+.googlemap{
+    position:relative;
+    text-align:right;
+    height:296px;
+    width:319px;
+
+    .gmap_canvas {
+        overflow:hidden;
+        background:none
+        !important;height:296px;
+        width:319px;
+    }
+}
+#callbutton{
+    position: fixed;
+    width: 150px;
+    height: 40px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #069D4A; 
+}
+footer{
+    font-family: 'Dosis', sans-serif;
+}

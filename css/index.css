@@ -12,8 +12,9 @@ nav #hamburgernav {
   position: absolute;
   top: 54px;
   background-color: #069D4A;
-  height: 20vh;
+  height: 22vh;
   width: 50vw;
+  z-index: 2;
 }
 
 nav #navToggle:checked ~ #hamburgernav {
@@ -29,6 +30,7 @@ nav #hamburgernav > a {
   text-decoration: none;
   padding: 15px;
   color: #F3E9DC;
+  font-family: "Cormorant Upright", serif;
 }
 
 nav #logo {
@@ -38,19 +40,75 @@ nav #logo {
 
 main .mainphoto {
   height: 70vw;
+  position: relative;
+  left: 20px;
+  border: solid #AE1C09;
 }
 
-main .mapouter {
+main h1 {
+  font-family: "Cormorant Upright", serif;
+  font-size: 2rem;
+  position: relative;
+  left: 25px;
+  padding: 15px;
+  color: #702632;
+  width: 80vw;
+}
+
+main h2 {
+  font-family: "Cormorant Upright", serif;
+  color: #702632;
+  text-align: center;
+}
+
+.contactinfo h3 {
+  font-family: "Cormorant Upright", serif;
+}
+
+.hours h3 {
+  font-family: "Cormorant Upright", serif;
+}
+
+.hours b {
+  font-family: "Cormorant Upright", serif;
+}
+
+.hours p {
+  font-family: 'Dosis', sans-serif;
+}
+
+.address h3 {
+  font-family: "Cormorant Upright", serif;
+}
+
+.address p {
+  font-family: 'Dosis', sans-serif;
+}
+
+.googlemap {
   position: relative;
   text-align: right;
   height: 296px;
   width: 319px;
 }
 
-main .gmap_canvas {
+.googlemap .gmap_canvas {
   overflow: hidden;
   background: none !important;
   height: 296px;
   width: 319px;
+}
+
+#callbutton {
+  position: fixed;
+  width: 150px;
+  height: 40px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #069D4A;
+}
+
+footer {
+  font-family: 'Dosis', sans-serif;
 }
 /*# sourceMappingURL=index.css.map */
