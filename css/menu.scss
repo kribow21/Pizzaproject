@@ -70,16 +70,20 @@ h1{
     font-family: $bigfont;
     color: $wine;
     font-size: 2.5rem;
+    padding-left: 135px;
 }
 #menuNav{
     font-family: $bigfont;
-    color: $wine;
+    background-color: $wine;
     font-size: 2rem;
+    a{
+        color: $linen;
+    }
 }
 .headingblock{
     a{
     font-family: $bigfont;
-    color: $wine;
+    color: $red;
     font-size: 2.5rem;
     }
 }
@@ -98,7 +102,13 @@ h1{
     }
     p{
         font-family: $littlefont;
+        padding: 8px;
     }
+}
+#topbutton{
+    color: $red;
+    font-family: $littlefont;
+    font-size: 1.2em;
 }
 footer{
     font-family: $littlefont;

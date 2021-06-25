@@ -69,17 +69,22 @@ h1 {
   font-family: "Cormorant Upright", serif;
   color: #702632;
   font-size: 2.5rem;
+  padding-left: 135px;
 }
 
 #menuNav {
   font-family: "Cormorant Upright", serif;
-  color: #702632;
+  background-color: #702632;
   font-size: 2rem;
+}
+
+#menuNav a {
+  color: #F3E9DC;
 }
 
 .headingblock a {
   font-family: "Cormorant Upright", serif;
-  color: #702632;
+  color: #AE1C09;
   font-size: 2.5rem;
 }
 
@@ -100,6 +105,13 @@ h1 {
 
 .itemDescription p {
   font-family: "Dosis", sans-serif;
+  padding: 8px;
+}
+
+#topbutton {
+  color: #AE1C09;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.2em;
 }
 
 footer {
