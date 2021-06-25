@@ -121,5 +121,23 @@ footer a {
     font-size: 1.3rem;
     pointer-events: none;
   }
+  main {
+    grid-template-areas: 'image section1' 'image section2' 'image section3';
+  }
+  main section #famsec {
+    grid-area: section1;
+  }
+  main section #goalsec {
+    grid-area: section2;
+  }
+  main section #productsec {
+    grid-area: section3;
+  }
+  main #tabletimg {
+    grid-area: image;
+    display: block;
+    width: 50vw;
+    height: 100vh;
+  }
 }
 /*# sourceMappingURL=aboutus.css.map */
