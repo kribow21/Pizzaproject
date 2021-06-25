@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+/*border style for images*/
+/*Mobile Media rules here*/
 nav {
   background-color: #069D4A;
 }
@@ -53,7 +55,7 @@ nav #callbutton {
   text-decoration: none;
   color: #F3E9DC;
   padding: 5px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 1.1rem;
   border-style: solid;
   border-color: #702632;
@@ -73,13 +75,13 @@ main h1 {
 }
 
 main p {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   color: #702632;
   font-size: 1.2rem;
 }
 
 footer {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   background-color: #069D4A;
 }
 
