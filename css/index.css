@@ -68,7 +68,7 @@ nav #callbutton {
 main {
   display: grid;
   grid-template-rows: repeat(8, 0.3fr);
-  justify-items: center;
+  text-align: center;
 }
 
 main h1 {
@@ -123,26 +123,25 @@ main .block span {
   display: none;
 }
 
-.contactinfo {
+.info {
   font-family: "Cormorant Upright", serif;
-  font-size: 1.5rem;
   color: #702632;
   justify-content: center;
 }
 
-.hours h3 {
+.info h3 {
   font-family: "Cormorant Upright", serif;
   font-size: 2rem;
   color: #702632;
 }
 
-.hours h4 {
+.info h4 {
   font-family: "Cormorant Upright", serif;
   font-size: 1.2em;
   color: #702632;
 }
 
-.hours p {
+.info p {
   font-family: "Dosis", sans-serif;
   color: #702632;
 }
@@ -160,7 +159,7 @@ main .block span {
 
 .googlemap {
   position: relative;
-  right: 5px;
+  left: 30px;
   padding: 10px;
   text-align: right;
   height: 296px;
@@ -186,6 +185,7 @@ footer a {
   color: #F3E9DC;
 }
 
+/*Tablet media rules*/
 @media only screen and (min-width: 768px) {
   nav {
     background-color: #069D4A;
