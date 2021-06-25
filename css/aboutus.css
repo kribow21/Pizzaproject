@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #069D4A;
+}
+
+nav #hamburgernav {
+  display: none;
+  position: absolute;
+  top: 70px;
+  background-color: #069D4A;
+  height: 27vh;
+  width: 50vw;
+  z-index: 2;
+}
+
+nav #hamicon {
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+
+nav #navToggle:checked ~ #hamburgernav {
+  display: block;
+}
+
+nav #navToggle {
+  display: none;
+}
+
+nav #hamburgernav > a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 15px;
+  color: #F3E9DC;
+  font-family: "Cormorant Upright", serif;
+}
+
+nav #logo {
+  height: 10vh;
+  padding-left: 89px;
+}
+
+nav #callbutton {
+  position: relative;
+  bottom: 15px;
+  background-color: #069D4A;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #F3E9DC;
+  padding: 5px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.1rem;
+  border-style: solid;
+  border-color: #702632;
+}
+
+footer {
+  font-family: 'Dosis', sans-serif;
+  background-color: #069D4A;
+}
+
+footer a {
+  text-decoration: none;
+  color: #F3E9DC;
+}
+/*# sourceMappingURL=aboutus.css.map */

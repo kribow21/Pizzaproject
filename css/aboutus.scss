@@ -1,0 +1,77 @@
+$wine: #702632;
+$green: #069D4A;
+$red: #AE1C09;
+$linen: #F3E9DC;
+$bigfont:'Cormorant Upright', serif;
+*{
+    margin: 0;
+    padding: 0;
+}
+@mixin borderstyle {
+    border-style: solid;
+    border-color: $wine;
+}
+nav{
+    background-color: $green ;
+
+    #hamburgernav{
+        display: none;
+        position: absolute;
+        top: 70px;
+        background-color: $green;
+        height: 27vh;
+        width: 50vw;
+        z-index: 2;
+    }
+    #hamicon{
+        position: relative;
+        left: 10px;
+        bottom: 10px;
+    }
+    #navToggle:checked ~ #hamburgernav{
+        display: block;
+    }
+    #navToggle{
+        display: none;
+    }
+    #hamburgernav > a{
+        display: block;
+        text-decoration: none;
+        font-size: 1.5rem;
+        padding: 15px;
+        color: $linen;
+        font-family: $bigfont;
+        
+    }
+    #logo{
+        height: 10vh;
+        padding-left: 89px;
+    }
+    #callbutton{
+        position: relative;
+        bottom: 15px;
+        background-color: $green;
+        border-radius: 8px;
+        text-decoration: none;
+        color: $linen;
+        padding: 5px;
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.1rem;
+        @include borderstyle();    
+    }
+}
+footer{
+    font-family: 'Dosis', sans-serif;
+    background-color:$green;
+    a{
+        text-decoration: none;
+        color: $linen;
+
+    }
+}
+
+
+
+
+
+
