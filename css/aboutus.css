@@ -59,6 +59,25 @@ nav #callbutton {
   border-color: #702632;
 }
 
+main {
+  background-color: #F3E9DC;
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
+  padding: 10px;
+}
+
+main h1 {
+  font-family: "Cormorant Upright", serif;
+  color: #AE1C09;
+}
+
+main p {
+  font-family: 'Dosis', sans-serif;
+  color: #702632;
+  font-size: 1.2rem;
+}
+
 footer {
   font-family: 'Dosis', sans-serif;
   background-color: #069D4A;

@@ -60,9 +60,25 @@ nav{
         @include borderstyle();    
     }
 }
+main{
+    background-color: $linen;
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    padding: 10px;
+    h1{
+        font-family: $bigfont;
+        color: $red;
+    }
+    p{
+        font-family:'Dosis', sans-serif;
+        color: $wine;
+        font-size: 1.2rem;
+    }
+}
 footer{
     font-family: 'Dosis', sans-serif;
-    background-color:$green;
+    background-color: $green;
     a{
         text-decoration: none;
         color: $linen;
