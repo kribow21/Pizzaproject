@@ -49,112 +49,81 @@ nav #logo {
   padding-left: 89px;
 }
 
-main .mainphoto {
-  height: 70vw;
-  position: relative;
-  left: 20px;
-  border-style: solid;
-  border-color: #702632;
+main {
+  display: grid;
+  grid-template-rows: repeat(7, 0.3fr);
+  justify-items: center;
 }
 
 main h1 {
+  padding-top: 15px;
   font-family: "Cormorant Upright", serif;
-  font-size: 2rem;
-  position: relative;
-  left: 25px;
-  padding: 15px;
+  font-size: 2.5rem;
   color: #702632;
-  width: 80vw;
 }
 
 main h2 {
+  padding: 10px;
   font-family: "Cormorant Upright", serif;
+  font-size: 2.5rem;
   color: #702632;
-  text-align: center;
-  padding-bottom: 10px;
+}
+
+.gallary #mainphoto {
+  height: 44vh;
+  border-style: solid;
+  border-color: #702632;
+}
+
+.gallary #mainphoto2 {
+  display: none;
+  border-style: solid;
+  border-color: #702632;
+}
+
+.gallary #mainphoto3 {
+  display: none;
+  border-style: solid;
+  border-color: #702632;
 }
 
 .contactinfo {
-  display: block;
-  width: 40vw;
-  border-style: solid;
-  border-color: #702632;
-  padding: 10px;
-  position: relative;
-  left: 90px;
-  text-align: center;
-  background-color: #AE1C09;
-}
-
-.contactinfo h3 {
   font-family: "Cormorant Upright", serif;
   font-size: 1.5rem;
-  color: #F3E9DC;
-  padding-bottom: 10px;
-}
-
-.contactinfo a {
-  text-decoration: none;
-  color: #F3E9DC;
-}
-
-.hours {
-  display: block;
-  width: 25vw;
-  height: 55vh;
-  position: relative;
-  left: 105px;
-  padding: 20px;
-  border-style: solid;
-  border-color: #702632;
-  margin-top: 15px;
-  background-color: #AE1C09;
-  text-align: center;
-  color: #F3E9DC;
+  color: #702632;
+  justify-content: center;
 }
 
 .hours h3 {
   font-family: "Cormorant Upright", serif;
-  font-size: 1.5rem;
-  padding-bottom: 10px;
+  font-size: 2rem;
+  color: #702632;
 }
 
 .hours b {
   font-family: "Cormorant Upright", serif;
-  font-size: 1.5rem;
-  text-decoration: underline;
+  color: #702632;
 }
 
 .hours p {
   font-family: 'Dosis', sans-serif;
-}
-
-.address {
-  display: block;
-  width: 20vw;
-  padding: 10px;
-  position: relative;
-  left: 120px;
-  border-style: solid;
-  border-color: #702632;
-  margin-bottom: 20px;
-  background-color: #AE1C09;
-  color: #F3E9DC;
+  color: #702632;
 }
 
 .address h3 {
   font-family: "Cormorant Upright", serif;
-  font-size: 1.5rem;
-  padding-bottom: 10px;
+  font-size: 2rem;
+  color: #702632;
 }
 
 .address p {
   font-family: 'Dosis', sans-serif;
+  color: #702632;
 }
 
 .googlemap {
   position: relative;
-  left: 12px;
+  right: 5px;
   padding: 10px;
   text-align: right;
   height: 296px;
@@ -171,17 +140,13 @@ main h2 {
 }
 
 #callbutton {
-  position: fixed;
-  width: 150px;
-  height: 40px;
-  bottom: 40px;
-  right: 30px;
+  position: relative;
+  bottom: 15px;
   background-color: #069D4A;
   border-radius: 8px;
   text-decoration: none;
   color: #F3E9DC;
-  padding-top: 15px;
-  padding-left: 10px;
+  padding: 5px;
   font-family: 'Dosis', sans-serif;
   font-size: 1.1rem;
   border-style: solid;
