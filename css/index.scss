@@ -132,3 +132,26 @@ footer{
         color: $linen;
     }
 }
+@media only screen and (min-width:768px){
+    nav{
+        background-color: $green ;
+        #hamburgernav{
+            top: 105px;
+        }
+        #hamicon{
+            bottom: 10px;
+            height: 80px;
+        }
+        #logo{
+            height: 10vh;
+            padding-left: 235px;
+        }
+        #callbutton{
+            bottom: 45px;
+            left: 140px;
+            padding: 10px;
+            font-size: 1.3rem;
+            pointer-events: none;   
+        }
+    }
+}
