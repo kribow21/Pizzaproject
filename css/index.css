@@ -116,8 +116,9 @@ main h2 {
   color: #702632;
 }
 
-.hours b {
+.hours h4 {
   font-family: "Cormorant Upright", serif;
+  font-size: 1.2em;
   color: #702632;
 }
 
