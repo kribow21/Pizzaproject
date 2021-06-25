@@ -7,13 +7,16 @@
     <meta name="description" content="Restaurant,Pizza, Pasta, Local, Okotoks">
     <meta name="keywords" content="Pizza, Fresh, Menu, Restaurant">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&family=Dosis:wght@500&display=swap" rel="stylesheet">
     <title>Menu</title>
 </head>
 <body>
     <nav>
         <input type="checkbox" id="navToggle">
         <label for="navToggle">
-            <img src="https://img.icons8.com/ios/50/000000/top-menu.png"/>
+            <img src="https://img.icons8.com/ios/50/000000/top-menu.png" id="hamicon"/>
         </label>
         <div id="hamburgernav">
             <a href="index.html">Home</a>
@@ -21,17 +24,20 @@
             <a href="aboutus.html">About Us</a>
         </div>
         <img src="media/logo.png" alt="logo" id="logo">
+        <a href="tel:777-777-7777" id="callbutton">Call:777-777-7777</a>
     </nav>
     <main>
         <h1>Menu</h1>
-        <nav id="menunav">
+        <nav id="menuNav">
             <a href="#pizza">Pizza</a>
             <a href="#pasta">Pasta</a>
             <a href="#calzone">Calzone</a>
             <a href="#beverage">Beverage</a>
         </nav>
-        <a name="pizza">Pizza</a>
-            <section class="pizzacontainer">
+        <div class="headingblock">
+            <a name="pizza">Pizza</a>
+        </div>
+            <section class="largecontainer">
                     <div class="itemDescription">
                         <h4>Classic $16</h4>
                         <p>Pesto sauce, tomatoes, mozzarella, basil</p>
@@ -65,8 +71,10 @@
                         <p>Tomato sauce, cheese, beef, red onions, tomatoes, parmigiano</p>
                     </div>    
                 </section>
-        <a name="pasta">Pasta</a>
-        <section class="pastacontainer">
+        <div class="headingblock">
+            <a name="pasta">Pasta</a>
+        </div>
+        <section class="largecontainer">
             <div class="itemDescription">
                 <h4>Spaghetti $18</h4>
                 <p>marinara sauce, parmigiano</p>
@@ -100,8 +108,10 @@
                 <p>cream sauce, spinach, sun-dried tomatoes, sausage</p>
             </div>   
         </section>
-        <a name="calzone">Calzone</a>
-        <section class="calzonecontainer">
+        <div class="headingblock"><a name="calzone">Calzone</a>
+
+        </div>
+        <section class="smallcontainer">
             <div class="itemDescription">
                 <h4>Pepperoni $12</h4>
                 <p>tomato sauce, pepperoni, mozzarella</p>
@@ -119,8 +129,10 @@
                 <p>sausage, tomatoes, cheese, olives, spinach</p>
             </div>
         </section>
-        <a name="beverage">Beverage</a>
-        <section class="bevcontainer">
+        <div class="headingblock"><a name="beverage">Beverage</a>
+
+        </div>
+        <section class="smallcontainer">
             <div class="itemDescription">
                 <h4>Pop $6</h4>
                 <p>coke, pepsi, ginger ale, sprite</p>
@@ -140,6 +152,9 @@
         </section>
 
     </main>
-    
+    <footer>
+        <p>&copy; Okotoks Pizza</p>
+        <a href="https://icons8.com/icon/17551/top-menu">Top Menu icon by Icons8</a>
+    </footer>
 </body>
 </html>
