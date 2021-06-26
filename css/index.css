@@ -9,12 +9,16 @@ body {
 
 /*border style for images*/
 /*Mobile Media rules here*/
-nav {
+header {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
   background-color: #069D4A;
   width: 100vw;
 }
 
-nav #hamburgernav {
+header #hamburgernav {
   display: none;
   position: absolute;
   top: 70px;
@@ -24,21 +28,15 @@ nav #hamburgernav {
   z-index: 2;
 }
 
-nav #hamicon {
-  position: relative;
-  left: 10px;
-  bottom: 10px;
-}
-
-nav #navToggle:checked ~ #hamburgernav {
+header #navToggle:checked ~ #hamburgernav {
   display: block;
 }
 
-nav #navToggle {
+header #navToggle {
   display: none;
 }
 
-nav #hamburgernav > a {
+header #hamburgernav > a {
   display: block;
   text-decoration: none;
   font-size: 1.5rem;
@@ -47,14 +45,12 @@ nav #hamburgernav > a {
   font-family: "Cormorant Upright", serif;
 }
 
-nav #logo {
+header #logo {
   height: 10vh;
-  padding-left: 25vw;
 }
 
-nav #callbutton {
-  position: relative;
-  bottom: 2vh;
+header #callbutton {
+  display: inline-block;
   background-color: #069D4A;
   border-radius: 8px;
   text-decoration: none;
@@ -77,6 +73,7 @@ main h1 {
   font-family: "Cormorant Upright", serif;
   font-size: 2rem;
   color: #702632;
+  width: 100vw;
 }
 
 main .block {
@@ -177,22 +174,16 @@ main .block span {
   color: #702632;
 }
 
-.googlemap {
-  position: relative;
-  left: 30px;
-  padding: 10px;
-  text-align: right;
-  height: 296px;
-  width: 319px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.googlemap .gmap_canvas {
+.gmap_canvas {
   overflow: hidden;
   background: none !important;
   height: 296px;
   width: 325px;
+  position: relative;
+  padding: 10px;
+  text-align: right;
+  height: 60vh;
+  margin-top: 10px;
 }
 
 footer {
@@ -208,25 +199,25 @@ footer a {
 
 /*Tablet media rules*/
 @media only screen and (min-width: 600px) {
-  nav {
+  header {
     background-color: #069D4A;
   }
-  nav #hamburgernav {
+  header #hamburgernav {
     top: 105px;
     height: 23vh;
   }
-  nav #hamicon {
+  header #hamicon {
     bottom: 10px;
     height: 80px;
   }
-  nav #hamburgernav > a {
+  header #hamburgernav > a {
     font-size: 2rem;
   }
-  nav #logo {
+  header #logo {
     height: 10vh;
     padding-left: 235px;
   }
-  nav #callbutton {
+  header #callbutton {
     bottom: 45px;
     left: 140px;
     padding: 10px;
@@ -295,22 +286,17 @@ footer a {
   .address p {
     font-size: 1.5em;
   }
-  .googlemap {
+  .gmap_canvas {
     grid-area: map;
-    position: relative;
-    left: 30px;
-    padding: 10px;
-    text-align: right;
-    height: 296px;
-    width: 319px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .googlemap .gmap_canvas {
     overflow: hidden;
     background: none !important;
     height: 296px;
     width: 325px;
+    position: relative;
+    padding: 10px;
+    text-align: right;
+    height: 60vh;
+    margin-top: 10px;
   }
 }
 /*# sourceMappingURL=index.css.map */

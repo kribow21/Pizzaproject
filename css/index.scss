@@ -30,6 +30,7 @@ main{
         font-family: $bigfont;
         font-size: 2rem;
         color: $wine;
+        width: 100vw;
     }
 
     .block{
@@ -119,22 +120,17 @@ main{
         color: $wine;
     }
 }
-.googlemap{
-    position:relative;
-    left: 30px;
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:296px;
+    width:325px;
+    position: relative;
     padding: 10px;
     text-align:right;
-    height:296px;
-    width:319px;
+    height:60vh;
     margin-top: 10px;
-    margin-bottom: 10px;
-
-    .gmap_canvas {
-        overflow:hidden;
-        background:none!important;height:296px;
-        width:325px;
-        
-    }
+    
 }
 
 footer{
@@ -148,7 +144,7 @@ footer{
 }
 /*Tablet media rules*/
 @media only screen and (min-width:600px){
-    nav{
+    header{
         background-color: $green ;
         #hamburgernav{
             top: 105px;
@@ -246,24 +242,17 @@ footer{
             font-size: 1.5em;
         }
     }
-    .googlemap{
+    .gmap_canvas {
         grid-area: map;
-        position:relative;
-        left: 30px;
+        overflow:hidden;
+        background:none!important;
+        height:296px;
+        width:325px;
+        position: relative;
         padding: 10px;
         text-align:right;
-        height:296px;
-        width:319px;
+        height:60vh;
         margin-top: 10px;
-        margin-bottom: 10px;
-    
-        .gmap_canvas {
-            overflow:hidden;
-            background:none!important;
-            height:296px;
-            width:325px;
-            
-        }
+        
     }
-
 }

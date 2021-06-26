@@ -5,12 +5,16 @@
 
 /*border style for images*/
 /*Mobile Media rules here*/
-nav {
+header {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
   background-color: #069D4A;
   width: 100vw;
 }
 
-nav #hamburgernav {
+header #hamburgernav {
   display: none;
   position: absolute;
   top: 70px;
@@ -20,21 +24,15 @@ nav #hamburgernav {
   z-index: 2;
 }
 
-nav #hamicon {
-  position: relative;
-  left: 10px;
-  bottom: 10px;
-}
-
-nav #navToggle:checked ~ #hamburgernav {
+header #navToggle:checked ~ #hamburgernav {
   display: block;
 }
 
-nav #navToggle {
+header #navToggle {
   display: none;
 }
 
-nav #hamburgernav > a {
+header #hamburgernav > a {
   display: block;
   text-decoration: none;
   font-size: 1.5rem;
@@ -43,14 +41,12 @@ nav #hamburgernav > a {
   font-family: "Cormorant Upright", serif;
 }
 
-nav #logo {
+header #logo {
   height: 10vh;
-  padding-left: 25vw;
 }
 
-nav #callbutton {
-  position: relative;
-  bottom: 2vh;
+header #callbutton {
+  display: inline-block;
   background-color: #069D4A;
   border-radius: 8px;
   text-decoration: none;

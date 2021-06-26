@@ -1,4 +1,8 @@
-nav{
+header{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
     background-color: $green ;
     width: 100vw;
     #hamburgernav{
@@ -9,11 +13,6 @@ nav{
         height: 27vh;
         width: 50vw;
         z-index: 2;
-    }
-    #hamicon{
-        position: relative;
-        left: 10px;
-        bottom: 10px;
     }
     #navToggle:checked ~ #hamburgernav{
         display: block;
@@ -32,11 +31,10 @@ nav{
     }
     #logo{
         height: 10vh;
-        padding-left: 25vw;
+
     }
     #callbutton{
-        position: relative;
-        bottom: 2vh;
+        display: inline-block;
         background-color: $green;
         border-radius: 8px;
         text-decoration: none;
