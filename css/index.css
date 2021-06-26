@@ -206,31 +206,6 @@ footer a {
 
 /*Tablet media rules*/
 @media only screen and (min-width: 600px) {
-  header {
-    background-color: #069D4A;
-  }
-  header #hamburgernav {
-    top: 105px;
-    height: 23vh;
-  }
-  header #hamicon {
-    bottom: 10px;
-    height: 80px;
-  }
-  header #hamburgernav > a {
-    font-size: 2rem;
-  }
-  header #logo {
-    height: 10vh;
-    padding-left: 235px;
-  }
-  header #callbutton {
-    bottom: 45px;
-    left: 140px;
-    padding: 10px;
-    font-size: 1.3rem;
-    pointer-events: none;
-  }
   main {
     grid-template-areas: 'heading heading' 'mainphoto textone' 'texttwo mainphoto2' 'block block' 'info address' 'map map';
   }
