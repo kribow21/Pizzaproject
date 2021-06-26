@@ -21,7 +21,7 @@ header {
 header #hamburgernav {
   display: none;
   position: absolute;
-  top: 70px;
+  top: 10vh;
   background-color: #069D4A;
   height: 27vh;
   width: 50vw;
