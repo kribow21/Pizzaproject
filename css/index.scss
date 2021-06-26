@@ -47,45 +47,43 @@ main{
 
     }
 }
-.gallary{
-    #mainphoto{
-        height: 44vh;
-        @include borderstyle();
-        
-    }
-    #mainphoto2{
-        display: none;
-        @include borderstyle();
-    }
-    #mainphoto3{
-        display: none;
-        @include borderstyle();
-    }
-    iframe{
-        width:"560" ;
-        height:"315";
-        display: none;
-    }
-    #textone{
-        padding: 10px;
-        font-family: $bigfont;
-        font-size: 2rem;
-        color: $wine; 
-    }
-    #texttwo{
-        padding: 10px;
-        font-family: $bigfont;
-        font-size: 2rem;
-        color: $wine; 
-        display: none;
-    }
-    #textthree{
-        padding: 10px;
-        font-family: $bigfont;
-        font-size: 2rem;
-        color: $wine; 
-        display: none;
-    }
+#mainphoto{
+    height: 44vh;
+    @include borderstyle();
+    
+}
+#mainphoto2{
+    display: none;
+    @include borderstyle();
+}
+#mainphoto3{
+    display: none;
+    @include borderstyle();
+}
+#video{
+    display: none;
+    width:"560" ;
+    height:"315";
+}
+#textone{
+    padding: 10px;
+    font-family: $bigfont;
+    font-size: 2rem;
+    color: $wine; 
+}
+#texttwo{
+    padding: 10px;
+    font-family: $bigfont;
+    font-size: 2rem;
+    color: $wine; 
+    display: none;
+}
+#textthree{
+    padding: 10px;
+    font-family: $bigfont;
+    font-size: 2rem;
+    color: $wine; 
+    display: none;
 }
 .info{
     font-family: $bigfont;
@@ -130,8 +128,8 @@ main{
 
     .gmap_canvas {
         overflow:hidden;
-        background:none
-        !important;height:296px;
+        background:none!important;
+        height:296px;
         width:325px;
         
     }
@@ -182,74 +180,67 @@ footer{
         'map map';
         h1{
             grid-area: heading;
-            padding-top: 15px;
-            font-size: 2.5rem;
+            padding-top: 25px;
+            font-size: 4rem;
+            width: 100vw;
         }
         .block{
             grid-area: block;
             span{
-
-                display: inline-block;
-                font-size: 2em;
-                padding-left: 30px;
-    
+                font-size: 3em;
+                padding-left: 40px;
             }
         }
     }
-    .gallary{
-        #mainphoto{
-            grid-area: mainphoto;
-            height: 44vh;
-            
-        }
-        #mainphoto2{
-            grid-area: mainphoto2;
-            display: block;
-        }
-        #textone{
-            grid-area: textone;
-            padding: 10px;
-            font-size: 2rem;
-        }
-        #texttwo{
-            grid-area: texttwo;
-            padding: 10px;
-            font-size: 2rem;
-            display: block;
-        }
+    #mainphoto{
+        grid-area: mainphoto;
+        height: 30vh;
         
+    }
+    #mainphoto2{
+        grid-area: mainphoto2;
+        display: block;
+        height: 30vh;
+        width: 47vw;
+
+    }
+    #textone{
+        grid-area: textone;
+        padding: 10px;
+        font-size: 2rem;
+        display: block;
+    }
+    #texttwo{
+        grid-area: texttwo;
+        padding: 10px;
+        font-size: 2rem;
+        display: block;
     }
     .info{
         grid-area: info;
-        font-family: $bigfont;
-        color: $wine; 
-        justify-content: center;
         h3{
-            font-family: $bigfont;
-            font-size: 2rem;
-            color: $wine;
+
+            font-size: 2.5rem;
         }
         h4{
-            font-family: $bigfont;
-            font-size: 1.2em;
-            color: $wine;
+            font-size: 1.5em;
         }
         p{
-            font-family: $littlefont;
-            color: $wine;
+            font-size: 1.5em;
+
+        }
+        a{
+            font-size: 1.5em;
         }
     }
     
     .address{
         grid-area: address;
         h3{
-            font-family: $bigfont;
-            font-size: 2rem;
-            color: $wine;
+            font-size: 2.5rem;
         }
         p{
-            font-family: $littlefont;
-            color: $wine;
+            font-size: 1.5em;
         }
     }
     .googlemap{
@@ -265,8 +256,8 @@ footer{
     
         .gmap_canvas {
             overflow:hidden;
-            background:none
-            !important;height:296px;
+            background:none!important;
+            height:296px;
             width:325px;
             
         }
