@@ -178,9 +178,14 @@ main .block span {
 }
 
 .googlemap {
+  position: relative;
+  left: 30px;
+  padding: 10px;
+  text-align: right;
   height: 296px;
   width: 319px;
-  margin: 5vh 15vw 5vh 10vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .googlemap .gmap_canvas {
