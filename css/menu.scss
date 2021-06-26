@@ -27,12 +27,13 @@ h1{
     text-align: center;
 }
 #menuNav{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
     font-family: $bigfont;
     background-color: $wine;
     font-size: 2rem;
     a{
         color: $linen;
-        padding-left: 3px;
     }
 }
 .headingblock{

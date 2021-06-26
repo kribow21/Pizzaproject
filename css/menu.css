@@ -70,6 +70,8 @@ h1 {
 }
 
 #menuNav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   font-family: "Cormorant Upright", serif;
   background-color: #702632;
   font-size: 2rem;
@@ -77,7 +79,6 @@ h1 {
 
 #menuNav a {
   color: #F3E9DC;
-  padding-left: 3px;
 }
 
 .headingblock a {
