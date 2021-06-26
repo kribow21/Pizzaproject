@@ -28,7 +28,7 @@ main{
     h1{
         padding-top: 15px;
         font-family: $bigfont;
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: $wine;
     }
 
@@ -49,7 +49,9 @@ main{
     }
 }
 #mainphoto{
-    height: 44vh;
+    width: 90vw;
+    margin-left:5vw;
+    margin-right:5vw;
     @include borderstyle();
     
 }

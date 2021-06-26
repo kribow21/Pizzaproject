@@ -49,17 +49,17 @@ nav #hamburgernav > a {
 
 nav #logo {
   height: 10vh;
-  padding-left: 89px;
+  padding-left: 25vw;
 }
 
 nav #callbutton {
   position: relative;
-  bottom: 15px;
+  bottom: 2vh;
   background-color: #069D4A;
   border-radius: 8px;
   text-decoration: none;
   color: #F3E9DC;
-  padding: 5px;
+  padding: 1vw;
   font-family: "Dosis", sans-serif;
   font-size: 1.1rem;
   border-style: solid;
@@ -75,7 +75,7 @@ main {
 main h1 {
   padding-top: 15px;
   font-family: "Cormorant Upright", serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #702632;
 }
 
@@ -95,7 +95,9 @@ main .block span {
 }
 
 #mainphoto {
-  height: 44vh;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   border-style: solid;
   border-color: #702632;
 }

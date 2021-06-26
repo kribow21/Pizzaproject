@@ -32,16 +32,16 @@ nav{
     }
     #logo{
         height: 10vh;
-        padding-left: 89px;
+        padding-left: 25vw;
     }
     #callbutton{
         position: relative;
-        bottom: 15px;
+        bottom: 2vh;
         background-color: $green;
         border-radius: 8px;
         text-decoration: none;
         color: $linen;
-        padding: 5px;
+        padding: 1vw;
         font-family: $littlefont;
         font-size: 1.1rem;
         @include borderstyle();    

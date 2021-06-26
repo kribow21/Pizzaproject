@@ -49,17 +49,17 @@ nav #hamburgernav > a {
 
 nav #logo {
   height: 10vh;
-  padding-left: 89px;
+  padding-left: 25vw;
 }
 
 nav #callbutton {
   position: relative;
-  bottom: 15px;
+  bottom: 2vh;
   background-color: #069D4A;
   border-radius: 8px;
   text-decoration: none;
   color: #F3E9DC;
-  padding: 5px;
+  padding: 1vw;
   font-family: "Dosis", sans-serif;
   font-size: 1.1rem;
   border-style: solid;
