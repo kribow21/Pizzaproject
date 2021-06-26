@@ -228,5 +228,89 @@ footer a {
     font-size: 1.3rem;
     pointer-events: none;
   }
+  main {
+    grid-template-areas: 'heading heading' 'mainphoto textone' 'texttwo mainphoto2' 'block block' 'info address' 'map map';
+  }
+  main h1 {
+    grid-area: heading;
+    padding-top: 15px;
+    font-size: 2.5rem;
+  }
+  main .block {
+    grid-area: block;
+  }
+  main .block span {
+    display: inline-block;
+    font-size: 2em;
+    padding-left: 30px;
+  }
+  .gallary #mainphoto {
+    grid-area: mainphoto;
+    height: 44vh;
+  }
+  .gallary #mainphoto2 {
+    grid-area: mainphoto2;
+    display: block;
+  }
+  .gallary #textone {
+    grid-area: textone;
+    padding: 10px;
+    font-size: 2rem;
+  }
+  .gallary #texttwo {
+    grid-area: texttwo;
+    padding: 10px;
+    font-size: 2rem;
+    display: block;
+  }
+  .info {
+    grid-area: info;
+    font-family: "Cormorant Upright", serif;
+    color: #702632;
+    justify-content: center;
+  }
+  .info h3 {
+    font-family: "Cormorant Upright", serif;
+    font-size: 2rem;
+    color: #702632;
+  }
+  .info h4 {
+    font-family: "Cormorant Upright", serif;
+    font-size: 1.2em;
+    color: #702632;
+  }
+  .info p {
+    font-family: "Dosis", sans-serif;
+    color: #702632;
+  }
+  .address {
+    grid-area: address;
+  }
+  .address h3 {
+    font-family: "Cormorant Upright", serif;
+    font-size: 2rem;
+    color: #702632;
+  }
+  .address p {
+    font-family: "Dosis", sans-serif;
+    color: #702632;
+  }
+  .googlemap {
+    grid-area: map;
+    position: relative;
+    left: 30px;
+    padding: 10px;
+    text-align: right;
+    height: 296px;
+    width: 319px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .googlemap .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 296px;
+    width: 325px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

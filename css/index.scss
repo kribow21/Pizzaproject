@@ -172,5 +172,104 @@ footer{
             pointer-events: none;   
         }
     }
+    main{
+        grid-template-areas:
+        'heading heading'
+        'mainphoto textone'
+        'texttwo mainphoto2'
+        'block block'
+        'info address'
+        'map map';
+        h1{
+            grid-area: heading;
+            padding-top: 15px;
+            font-size: 2.5rem;
+        }
+        .block{
+            grid-area: block;
+            span{
+
+                display: inline-block;
+                font-size: 2em;
+                padding-left: 30px;
+    
+            }
+        }
+    }
+    .gallary{
+        #mainphoto{
+            grid-area: mainphoto;
+            height: 44vh;
+            
+        }
+        #mainphoto2{
+            grid-area: mainphoto2;
+            display: block;
+        }
+        #textone{
+            grid-area: textone;
+            padding: 10px;
+            font-size: 2rem;
+        }
+        #texttwo{
+            grid-area: texttwo;
+            padding: 10px;
+            font-size: 2rem;
+            display: block;
+        }
+        
+    }
+    .info{
+        grid-area: info;
+        font-family: $bigfont;
+        color: $wine; 
+        justify-content: center;
+        h3{
+            font-family: $bigfont;
+            font-size: 2rem;
+            color: $wine;
+        }
+        h4{
+            font-family: $bigfont;
+            font-size: 1.2em;
+            color: $wine;
+        }
+        p{
+            font-family: $littlefont;
+            color: $wine;
+        }
+    }
+    
+    .address{
+        grid-area: address;
+        h3{
+            font-family: $bigfont;
+            font-size: 2rem;
+            color: $wine;
+        }
+        p{
+            font-family: $littlefont;
+            color: $wine;
+        }
+    }
+    .googlemap{
+        grid-area: map;
+        position:relative;
+        left: 30px;
+        padding: 10px;
+        text-align:right;
+        height:296px;
+        width:319px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        .gmap_canvas {
+            overflow:hidden;
+            background:none
+            !important;height:296px;
+            width:325px;
+            
+        }
+    }
 
 }
