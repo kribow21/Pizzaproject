@@ -11,6 +11,7 @@ main {
 /*Mobile Media rules here*/
 nav {
   background-color: #069D4A;
+  width: 100vw;
 }
 
 nav #hamburgernav {

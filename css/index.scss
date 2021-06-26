@@ -33,6 +33,7 @@ main{
     }
 
     .block{
+        width: 100vw;
         span{
             display: inline-block;
             font-size: 2em;
@@ -128,8 +129,7 @@ main{
 
     .gmap_canvas {
         overflow:hidden;
-        background:none!important;
-        height:296px;
+        background:none!important;height:296px;
         width:325px;
         
     }
@@ -138,13 +138,14 @@ main{
 footer{
     font-family: $littlefont;
     background-color:$green;
+    width: 100vw;
     a{
         text-decoration: none;
         color: $linen;
     }
 }
 /*Tablet media rules*/
-@media only screen and (min-width:768px){
+@media only screen and (min-width:600px){
     nav{
         background-color: $green ;
         #hamburgernav{
