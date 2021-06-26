@@ -52,32 +52,7 @@ footer{
     }
 }
 /*Tablet media rules*/
-@media only screen and (min-width:768px){
-    nav{
-        background-color: $green ;
-        #hamburgernav{
-            top: 105px;
-            height: 23vh;
-        }
-        #hamicon{
-            bottom: 10px;
-            height: 80px;
-        }
-        #hamburgernav > a{
-            font-size: 2rem;
-        }
-        #logo{
-            height: 10vh;
-            padding-left: 235px;
-        }
-        #callbutton{
-            bottom: 45px;
-            left: 140px;
-            padding: 10px;
-            font-size: 1.3rem;
-            pointer-events: none;   
-        }
-    }
+@media only screen and (min-width:600px){
     main{
     grid-template-areas:
     'image section1'
