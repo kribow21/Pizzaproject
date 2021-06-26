@@ -136,10 +136,14 @@ footer{
         background-color: $green ;
         #hamburgernav{
             top: 105px;
+            height: 23vh;
         }
         #hamicon{
             bottom: 10px;
             height: 80px;
+        }
+        #hamburgernav > a{
+            font-size: 2rem;
         }
         #logo{
             height: 10vh;
