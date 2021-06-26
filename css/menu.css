@@ -69,7 +69,7 @@ h1 {
   font-family: "Cormorant Upright", serif;
   color: #702632;
   font-size: 2.5rem;
-  padding-left: 135px;
+  text-align: center;
 }
 
 #menuNav {
@@ -80,6 +80,7 @@ h1 {
 
 #menuNav a {
   color: #F3E9DC;
+  padding-left: 3px;
 }
 
 .headingblock a {
@@ -123,5 +124,48 @@ footer a {
   text-decoration: none;
   color: #F3E9DC;
   background-color: #069D4A;
+}
+
+/*Tablet media rules*/
+@media only screen and (min-width: 768px) {
+  nav {
+    background-color: #069D4A;
+  }
+  nav #hamburgernav {
+    top: 105px;
+  }
+  nav #hamicon {
+    bottom: 10px;
+    height: 80px;
+  }
+  nav #logo {
+    height: 10vh;
+    padding-left: 235px;
+  }
+  nav #callbutton {
+    bottom: 45px;
+    left: 140px;
+    padding: 10px;
+    font-size: 1.3rem;
+    pointer-events: none;
+  }
+  h1 {
+    font-size: 4em;
+    text-align: center;
+  }
+  #menuNav {
+    font-size: 2.5em;
+  }
+  #menuNav a {
+    padding-left: 65px;
+  }
+  .largecontainer {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .smallcontainer {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
 /*# sourceMappingURL=menu.css.map */

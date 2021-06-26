@@ -24,7 +24,7 @@ h1{
     font-family: $bigfont;
     color: $wine;
     font-size: 2.5rem;
-    padding-left: 135px;
+    text-align: center;
 }
 #menuNav{
     font-family: $bigfont;
@@ -32,6 +32,7 @@ h1{
     font-size: 2rem;
     a{
         color: $linen;
+        padding-left: 3px;
     }
 }
 .headingblock{
@@ -72,5 +73,47 @@ footer{
         color: $linen;
         background-color: $green;
 
+    }
+}
+/*Tablet media rules*/
+@media only screen and(min-width:768px){
+    nav{
+        background-color: $green ;
+        #hamburgernav{
+            top: 105px;
+        }
+        #hamicon{
+            bottom: 10px;
+            height: 80px;
+        }
+        #logo{
+            height: 10vh;
+            padding-left: 235px;
+        }
+        #callbutton{
+            bottom: 45px;
+            left: 140px;
+            padding: 10px;
+            font-size: 1.3rem;
+            pointer-events: none;   
+        }
+    }
+    h1{
+        font-size: 4em;
+        text-align: center;
+    }
+    #menuNav{
+        font-size: 2.5em;
+        a{
+            padding-left: 65px;
+        }
+    }
+    .largecontainer{
+        grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .smallcontainer{
+        grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+        grid-template-rows: repeat(2, 1fr);
     }
 }
