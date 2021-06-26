@@ -123,14 +123,18 @@ main{
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
-    height:296px;
-    width:325px;
-    position: relative;
-    padding: 10px;
-    text-align:right;
-    height:60vh;
-    margin-top: 10px;
-    
+    text-align:center ;
+    margin-top: 3vh;
+    margin-left:15vw;
+    height: 50vh;
+    width: 70vw;
+    iframe{
+        height: 50vh;
+        width: 70vw;
+    }
+    a{
+        display: none;
+    }
 }
 
 footer{
