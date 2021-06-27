@@ -98,7 +98,8 @@ footer a {
 /*Tablet media rules*/
 @media only screen and (min-width: 600px) {
   main {
-    grid-template-areas: 'image section1' 'image section2' 'image section3';
+    grid-template-areas: 'image1 section1' 'image1 section2' 'image1 section3';
+    grid-template-columns: 50% 50%;
   }
   main section h1 {
     margin-left: 5vw;
@@ -116,10 +117,28 @@ footer a {
     grid-area: section3;
   }
   main #tabletimg {
-    grid-area: image;
+    grid-area: image1;
     display: block;
-    width: 50vw;
-    height: 150vh;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+/*Desktop media queries*/
+@media only screen and (min-width: 1025px) {
+  main {
+    grid-template-areas: 'image1 section1' 'section2 image2' 'image3 section3';
+  }
+  #tabletimg {
+    grid-area: image1;
+  }
+  #pizzaimg {
+    grid-area: image2;
+    display: block;
+  }
+  #foodimg {
+    grid-area: image3;
+    display: block;
   }
 }
 /*# sourceMappingURL=aboutus.css.map */
