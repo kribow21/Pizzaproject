@@ -129,31 +129,6 @@ footer a {
 
 /*Tablet media rules*/
 @media only screen and (min-width: 600px) {
-  nav {
-    background-color: #069D4A;
-  }
-  nav #hamburgernav {
-    top: 105px;
-    height: 23vh;
-  }
-  nav #hamicon {
-    bottom: 10px;
-    height: 80px;
-  }
-  nav #hamburgernav > a {
-    font-size: 2rem;
-  }
-  nav #logo {
-    height: 10vh;
-    padding-left: 235px;
-  }
-  nav #callbutton {
-    bottom: 45px;
-    left: 140px;
-    padding: 10px;
-    font-size: 1.3rem;
-    pointer-events: none;
-  }
   h1 {
     font-size: 4em;
     text-align: center;
