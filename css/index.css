@@ -69,7 +69,7 @@ main {
 }
 
 main h1 {
-  padding-top: 15px;
+  padding-top: 5vh;
   font-family: "Cormorant Upright", serif;
   font-size: 2rem;
   color: #702632;
@@ -88,7 +88,7 @@ main .block span {
   font-size: 2em;
   font-family: "Cormorant Upright", serif;
   color: #F3E9DC;
-  padding-left: 30px;
+  margin-left: 7vw;
 }
 
 #mainphoto {
@@ -118,14 +118,14 @@ main .block span {
 }
 
 #textone {
-  padding: 10px;
+  padding: 3vw;
   font-family: "Cormorant Upright", serif;
   font-size: 2rem;
   color: #702632;
 }
 
 #texttwo {
-  padding: 10px;
+  padding: 3vw;
   font-family: "Cormorant Upright", serif;
   font-size: 2rem;
   color: #702632;
@@ -133,7 +133,7 @@ main .block span {
 }
 
 #textthree {
-  padding: 10px;
+  padding: 3vw;
   font-family: "Cormorant Upright", serif;
   font-size: 2rem;
   color: #702632;
@@ -211,7 +211,7 @@ footer a {
   }
   main h1 {
     grid-area: heading;
-    padding-top: 25px;
+    padding-top: 3vh;
     font-size: 4rem;
     width: 100vw;
   }
@@ -220,7 +220,7 @@ footer a {
   }
   main .block span {
     font-size: 3em;
-    padding-left: 40px;
+    padding-left: 7vw;
   }
   #mainphoto {
     grid-area: mainphoto;
@@ -234,13 +234,11 @@ footer a {
   }
   #textone {
     grid-area: textone;
-    padding: 10px;
     font-size: 2rem;
     display: block;
   }
   #texttwo {
     grid-area: texttwo;
-    padding: 10px;
     font-size: 2rem;
     display: block;
   }
@@ -269,16 +267,17 @@ footer a {
     font-size: 1.5em;
   }
   .gmap_canvas {
-    grid-area: map;
     overflow: hidden;
     background: none !important;
-    height: 296px;
-    width: 325px;
-    position: relative;
-    padding: 10px;
-    text-align: right;
-    height: 60vh;
-    margin-top: 10px;
+    text-align: center;
+    margin-top: 3vh;
+    margin-left: 15vw;
+    height: 50vh;
+    width: 70vw;
+  }
+  .gmap_canvas iframe {
+    height: 50vh;
+    width: 70vw;
   }
 }
 /*# sourceMappingURL=index.css.map */
