@@ -64,6 +64,10 @@ main{
     display: none;
     @include borderstyle();
 }
+#mainphoto4{
+    display: none;
+    @include borderstyle();
+}
 #video{
     display: none;
 }
@@ -243,7 +247,7 @@ footer{
         'textone texttwo textthree'
         'video video video'
         'block block block'
-        'info . address'
+        'info mainphoto4 address'
         'map map map';
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -270,6 +274,12 @@ footer{
         margin-left: 2%;
         margin-right: 2%;
 
+    }
+    #mainphoto4{
+        grid-area: mainphoto4;
+        display: block;
+        width: 20vw;
+        justify-self: center;
     }
     #textone{
         font-size: 2rem;

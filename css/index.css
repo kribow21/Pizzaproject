@@ -111,6 +111,12 @@ main .block span {
   border-color: #702632;
 }
 
+#mainphoto4 {
+  display: none;
+  border-style: solid;
+  border-color: #702632;
+}
+
 #video {
   display: none;
 }
@@ -284,7 +290,7 @@ footer a {
 /*Desktop media queries*/
 @media only screen and (min-width: 1025px) {
   main {
-    grid-template-areas: 'heading heading heading' 'mainphoto mainphoto2 mainphoto3' 'textone texttwo textthree' 'video video video' 'block block block' 'info . address' 'map map map';
+    grid-template-areas: 'heading heading heading' 'mainphoto mainphoto2 mainphoto3' 'textone texttwo textthree' 'video video video' 'block block block' 'info mainphoto4 address' 'map map map';
     grid-template-columns: 1fr 1fr 1fr;
   }
   #mainphoto {
@@ -308,6 +314,12 @@ footer a {
     justify-self: start;
     margin-left: 2%;
     margin-right: 2%;
+  }
+  #mainphoto4 {
+    grid-area: mainphoto4;
+    display: block;
+    width: 20vw;
+    justify-self: center;
   }
   #textone {
     font-size: 2rem;
