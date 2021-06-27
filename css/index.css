@@ -113,8 +113,6 @@ main .block span {
 
 #video {
   display: none;
-  width: "560";
-  height: "315";
 }
 
 #textone {
@@ -271,6 +269,7 @@ footer a {
     font-size: 1.5em;
   }
   .gmap_canvas {
+    grid-area: map;
     height: 50vh;
     width: 70vw;
   }
@@ -281,4 +280,41 @@ footer a {
 }
 
 /*Desktop media queries*/
+@media only screen and (min-width: 1025px) {
+  main {
+    grid-template-areas: 'heading heading heading' 'mainphoto mainphoto2 mainphoto3' 'textone texttwo textthree' 'video video video' 'block block block' 'info . address' 'map map map';
+  }
+  #mainphoto {
+    grid-area: mainphoto;
+    width: 100%;
+    margin: 0%;
+  }
+  #mainphoto2 {
+    grid-area: mainphoto2;
+    object-fit: cover;
+    width: 48vw;
+  }
+  #mainphoto3 {
+    display: block;
+    grid-area: mainphoto3;
+  }
+  #textone {
+    font-size: 2rem;
+  }
+  #texttwo {
+    font-size: 2rem;
+    margin: 2vh 5vw;
+  }
+  #textthree {
+    grid-area: textthree;
+    font-size: 2rem;
+    display: block;
+  }
+  #video {
+    grid-area: video;
+    display: block;
+    width: 80vw;
+    height: 50vh;
+  }
+}
 /*# sourceMappingURL=index.css.map */
