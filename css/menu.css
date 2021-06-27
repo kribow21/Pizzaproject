@@ -111,6 +111,9 @@ h1 {
   color: #AE1C09;
   font-family: "Dosis", sans-serif;
   font-size: 1.2em;
+  position: fixed;
+  bottom: 6vh;
+  right: 10vw;
 }
 
 footer {
@@ -125,7 +128,7 @@ footer a {
 }
 
 /*Tablet media rules*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   nav {
     background-color: #069D4A;
   }
@@ -159,7 +162,8 @@ footer a {
     font-size: 2.5em;
   }
   #menuNav a {
-    padding-left: 65px;
+    margin-left: 3vw;
+    margin-right: 3vw;
   }
   .largecontainer {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
