@@ -156,6 +156,7 @@ footer{
         'block block'
         'info address'
         'map map';
+        grid-template-columns: 50% 50%;
         h1{
             grid-area: heading;
             padding-top: 3vh;
@@ -166,20 +167,22 @@ footer{
             grid-area: block;
             span{
                 font-size: 3em;
-                padding-left: 7vw;
+                margin-left: 9vw;
             }
         }
     }
     #mainphoto{
         grid-area: mainphoto;
-        height: 30vh;
+        object-fit: cover;
+        width: 100%;
+        margin: 0%;
         
     }
     #mainphoto2{
         grid-area: mainphoto2;
+        object-fit: cover;
         display: block;
-        height: 30vh;
-        width: 47vw;
+        width: 48vw;
 
     }
     #textone{
@@ -191,6 +194,8 @@ footer{
         grid-area: texttwo;
         font-size: 2rem;
         display: block;
+        margin: 2vh 5vw;
+
     }
     .info{
         grid-area: info;
@@ -212,6 +217,7 @@ footer{
     
     .address{
         grid-area: address;
+
         h3{
             font-size: 2.5rem;
         }
@@ -224,7 +230,6 @@ footer{
         background:none!important;
         text-align:center ;
         margin-top: 3vh;
-        margin-left:15vw;
         height: 50vh;
         width: 70vw;
         iframe{
