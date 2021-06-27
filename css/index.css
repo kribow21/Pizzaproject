@@ -161,6 +161,10 @@ main .block span {
   color: #702632;
 }
 
+.info a {
+  color: #069D4A;
+}
+
 .address h3 {
   font-family: "Cormorant Upright", serif;
   font-size: 2rem;
@@ -223,15 +227,13 @@ footer a {
   }
   #mainphoto {
     grid-area: mainphoto;
-    object-fit: cover;
     width: 100%;
     margin: 0%;
   }
   #mainphoto2 {
     grid-area: mainphoto2;
-    object-fit: cover;
     display: block;
-    width: 48vw;
+    width: 97%;
   }
   #textone {
     grid-area: textone;
@@ -283,27 +285,36 @@ footer a {
 @media only screen and (min-width: 1025px) {
   main {
     grid-template-areas: 'heading heading heading' 'mainphoto mainphoto2 mainphoto3' 'textone texttwo textthree' 'video video video' 'block block block' 'info . address' 'map map map';
+    grid-template-columns: 1fr 1fr 1fr;
   }
   #mainphoto {
     grid-area: mainphoto;
-    width: 100%;
-    margin: 0%;
+    width: 82%;
+    justify-self: end;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   #mainphoto2 {
     grid-area: mainphoto2;
     object-fit: cover;
-    width: 48vw;
+    width: 94%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   #mainphoto3 {
     display: block;
     grid-area: mainphoto3;
+    width: 92%;
+    justify-self: start;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   #textone {
     font-size: 2rem;
   }
   #texttwo {
     font-size: 2rem;
-    margin: 2vh 5vw;
+    margin: 0;
   }
   #textthree {
     grid-area: textthree;
@@ -315,6 +326,7 @@ footer a {
     display: block;
     width: 80vw;
     height: 50vh;
+    justify-self: center;
   }
 }
 /*# sourceMappingURL=index.css.map */

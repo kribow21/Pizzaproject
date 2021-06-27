@@ -105,6 +105,9 @@ main{
         font-family: $littlefont;
         color: $wine;
     }
+    a{
+        color: $green;
+    }
 }
 
 .address{
@@ -171,16 +174,14 @@ footer{
     }
     #mainphoto{
         grid-area: mainphoto;
-        object-fit: cover;
         width: 100%;
         margin: 0%;
         
     }
     #mainphoto2{
         grid-area: mainphoto2;
-        object-fit: cover;
         display: block;
-        width: 48vw;
+        width: 97%;
 
     }
     #textone{
@@ -244,29 +245,38 @@ footer{
         'block block block'
         'info . address'
         'map map map';
+        grid-template-columns: 1fr 1fr 1fr;
     }
     #mainphoto{
         grid-area: mainphoto;
-        width: 100%;
-        margin: 0%;
+        width: 82%;
+        justify-self: end;
+        margin-left: 2%;
+        margin-right: 2%;
         
     }
     #mainphoto2{
         grid-area: mainphoto2;
         object-fit: cover;
-        width: 48vw;
-
+        width: 94%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     #mainphoto3{
         display: block;
         grid-area: mainphoto3;
+        width: 92%;
+        justify-self: start;
+        margin-left: 2%;
+        margin-right: 2%;
+
     }
     #textone{
         font-size: 2rem;
     }
     #texttwo{
         font-size: 2rem;
-        margin: 2vh 5vw;
+        margin: 0;
 
     }
     #textthree{
@@ -279,6 +289,7 @@ footer{
         display: block;
         width: 80vw ;
         height: 50vh ;
+        justify-self: center;
     }
 }
 
