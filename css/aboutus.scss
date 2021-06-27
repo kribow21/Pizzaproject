@@ -21,7 +21,6 @@ main{
     display: grid;
     grid-template-rows: auto;
     justify-items: center;
-    padding-top: 5vh;
     section{
 
         h1{
@@ -29,13 +28,14 @@ main{
             color: $red;
             font-size: 2rem;
             margin-left: 4vw;
+            margin-top: 4vw;
         }
         p{
             font-family:$littlefont;
             color: $wine;
             font-size: 1.2em;
             text-indent: 5vw;
-            margin:5vh 6vw 5vh 6vw;
+            margin:2vh 6vw 2vh 6vw;
         }
     }
     img{
@@ -82,6 +82,7 @@ footer{
         display: block;
         object-fit: cover;
         width: 100%;
+        height: 100%;
     }
     }
 }
@@ -95,6 +96,7 @@ footer{
     }
     #tabletimg{
         grid-area: image1;
+        
     }
     #pizzaimg{
         grid-area: image2;
@@ -105,5 +107,11 @@ footer{
         grid-area: image3;
         display: block;
 
+    }
+    section{
+        h1{
+            text-align: center;
+
+        }
     }
 }
