@@ -214,6 +214,9 @@ footer a {
 
 /*Tablet media rules*/
 @media only screen and (min-width: 600px) {
+  header #callbutton {
+    pointer-events: none;
+  }
   main {
     grid-template-areas: 'heading heading' 'mainphoto textone' 'texttwo mainphoto2' 'block block' 'info address' 'map map';
     grid-template-columns: 50% 50%;

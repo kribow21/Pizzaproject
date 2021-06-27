@@ -129,6 +129,9 @@ footer a {
 
 /*Tablet media rules*/
 @media only screen and (min-width: 600px) {
+  header #callbutton {
+    pointer-events: none;
+  }
   h1 {
     font-size: 4em;
     text-align: center;

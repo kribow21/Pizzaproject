@@ -53,6 +53,11 @@ footer{
 }
 /*Tablet media rules*/
 @media only screen and (min-width:600px){
+    header{
+        #callbutton{
+            pointer-events: none;
+        }
+    }
     main{
     grid-template-areas:
     'image1 section1'
