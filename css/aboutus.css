@@ -80,7 +80,7 @@ main section h1 {
 main section p {
   font-family: "Dosis", sans-serif;
   color: #702632;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   text-indent: 5vw;
   margin: 2vh 6vw 2vh 6vw;
 }
@@ -127,8 +127,10 @@ footer a {
     grid-area: image1;
     display: block;
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width: 99%;
+    height: 99%;
+    border-style: solid;
+    border-color: #702632;
   }
 }
 
@@ -136,20 +138,38 @@ footer a {
 @media only screen and (min-width: 1025px) {
   main {
     grid-template-areas: 'image1 section1' 'section2 image2' 'image3 section3';
+    grid-template-rows: repeat(3, 50vh);
+  }
+  main section h1 {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 2vh;
+    font-size: 2.5em;
+  }
+  main section p {
+    margin: 1vh 6vw 1vh 6vw;
+    font-size: 1.4em;
   }
   #tabletimg {
     grid-area: image1;
+    border-style: solid;
+    border-color: #702632;
   }
   #pizzaimg {
     grid-area: image2;
     display: block;
+    height: 49vh;
+    width: 40vw;
+    border-style: solid;
+    border-color: #702632;
   }
   #foodimg {
     grid-area: image3;
     display: block;
-  }
-  section h1 {
-    text-align: center;
+    height: 49vh;
+    width: 40vw;
+    border-style: solid;
+    border-color: #702632;
   }
 }
 /*# sourceMappingURL=aboutus.css.map */
