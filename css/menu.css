@@ -85,7 +85,7 @@ h1 {
   color: #F3E9DC;
 }
 
-.headingblock a {
+.headingblock {
   font-family: "Cormorant Upright", serif;
   color: #AE1C09;
   font-size: 2.5rem;
@@ -149,6 +149,12 @@ footer a {
   #menuNav a {
     margin-left: 3vw;
     margin-right: 3vw;
+  }
+  #menuNav .headingblock {
+    font-family: "Cormorant Upright", serif;
+    color: #AE1C09;
+    font-size: 2.5rem;
+    background-color: #069D4A;
   }
   .largecontainer {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
