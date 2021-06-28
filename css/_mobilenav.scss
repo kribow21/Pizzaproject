@@ -28,9 +28,11 @@ header{
         color: $linen;
         font-family: $bigfont;  
     }
+    #hamicon{
+        margin-right: 20vw;
+    }
     #logo{
         height: 10vh;
-
     }
     #callbutton{
         display: inline-block;

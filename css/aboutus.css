@@ -41,6 +41,10 @@ header #hamburgernav > a {
   font-family: "Cormorant Upright", serif;
 }
 
+header #hamicon {
+  margin-right: 20vw;
+}
+
 header #logo {
   height: 10vh;
 }
