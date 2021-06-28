@@ -64,12 +64,12 @@ header #callbutton {
 
 main {
   display: grid;
-  grid-template-rows: repeat(6, 0.3fr);
+  grid-template-rows: repeat(6, 0.2fr);
   text-align: center;
 }
 
 main h1 {
-  padding-top: 5vh;
+  margin-top: 3vh;
   font-family: "Cormorant Upright", serif;
   font-size: 2rem;
   color: #702632;
@@ -122,7 +122,7 @@ main .block span {
 }
 
 #textone {
-  padding: 3vw;
+  padding-top: 8vw;
   font-family: "Cormorant Upright", serif;
   font-size: 2rem;
   color: #702632;
@@ -158,8 +158,9 @@ main .block span {
 
 .info h4 {
   font-family: "Cormorant Upright", serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #702632;
+  text-decoration: underline;
 }
 
 .info p {
@@ -169,6 +170,11 @@ main .block span {
 
 .info a {
   color: #069D4A;
+  font-size: 1.3em;
+}
+
+.address {
+  padding-bottom: 3vh;
 }
 
 .address h3 {
@@ -186,7 +192,8 @@ main .block span {
   overflow: hidden;
   background: none !important;
   text-align: center;
-  margin-top: 3vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
   margin-left: 15vw;
   height: 50vh;
   width: 70vw;
