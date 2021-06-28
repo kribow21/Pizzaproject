@@ -75,7 +75,7 @@ main {
 main h1 {
   margin-top: 3vh;
   font-family: "Cormorant Upright", serif;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #702632;
   width: 100vw;
 }
@@ -127,6 +127,8 @@ main .block span {
 
 #textone {
   padding-top: 8vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
   font-family: "Cormorant Upright", serif;
   font-size: 2rem;
   color: #702632;
@@ -158,6 +160,7 @@ main .block span {
   font-family: "Cormorant Upright", serif;
   font-size: 2rem;
   color: #702632;
+  text-transform: uppercase;
 }
 
 .info h4 {
@@ -185,6 +188,7 @@ main .block span {
   font-family: "Cormorant Upright", serif;
   font-size: 2rem;
   color: #702632;
+  text-transform: uppercase;
 }
 
 .address p {
@@ -270,7 +274,7 @@ footer a {
     grid-area: info;
   }
   .info h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .info h4 {
     font-size: 1.5em;
@@ -287,7 +291,7 @@ footer a {
     align-self: center;
   }
   .address h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .address p {
     font-size: 1.5em;
