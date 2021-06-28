@@ -112,12 +112,15 @@ h1 {
 }
 
 #topbutton {
-  color: #AE1C09;
+  color: #069D4A;
   font-family: "Dosis", sans-serif;
   font-size: 1.2em;
   position: fixed;
   bottom: 6vh;
   right: 10vw;
+  border-style: groove;
+  border-radius: 8px;
+  padding: 2px;
 }
 
 footer {
@@ -154,6 +157,11 @@ footer a {
   .smallcontainer {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(2, 1fr);
+  }
+  #topbutton {
+    font-size: 1.5em;
+    bottom: 17vh;
+    right: 10vw;
   }
 }
 /*# sourceMappingURL=menu.css.map */
