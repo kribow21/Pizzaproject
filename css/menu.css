@@ -89,6 +89,7 @@ h1 {
   font-family: "Cormorant Upright", serif;
   color: #AE1C09;
   font-size: 2.5rem;
+  background-image: linear-gradient(red green);
 }
 
 .largecontainer {
@@ -154,7 +155,6 @@ footer a {
     font-family: "Cormorant Upright", serif;
     color: #AE1C09;
     font-size: 2.5rem;
-    background-color: #069D4A;
   }
   .largecontainer {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -167,6 +167,21 @@ footer a {
   #topbutton {
     font-size: 1.5em;
     bottom: 17vh;
+    right: 10vw;
+  }
+}
+
+/*Desktop media rules*/
+@media only screen and (min-width: 1025px) {
+  .headingblock {
+    font-family: "Cormorant Upright", serif;
+    color: #F3E9DC;
+    font-size: 4rem;
+    background-image: url(https://images.unsplash.com/photo-1528082449820-2286cc8464ad?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTEzMXx8cmVkJTIwdGV4dHVyZXxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  }
+  #topbutton {
+    font-size: 1.5em;
+    bottom: 5vh;
     right: 10vw;
   }
 }
