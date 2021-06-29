@@ -45,10 +45,15 @@ main{
 footer{
     font-family: $littlefont;
     background-color: $green;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: $wine;
     a{
         text-decoration: none;
         color: $linen;
-
+    }
+    #phone{
+        display: none;
     }
 }
 /*Tablet media rules*/
@@ -131,5 +136,14 @@ footer{
         height: 49vh;
         width: 40vw;
         @include borderstyle();
+    }
+    footer{
+        grid-template-columns: repeat(5, 1fr);
+        a{
+            display: none;
+        }
+        #phone{
+            display: block;
+        }
     }
 }

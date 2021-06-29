@@ -92,11 +92,18 @@ main img {
 footer {
   font-family: "Dosis", sans-serif;
   background-color: #069D4A;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: #702632;
 }
 
 footer a {
   text-decoration: none;
   color: #F3E9DC;
+}
+
+footer #phone {
+  display: none;
 }
 
 /*Tablet media rules*/
@@ -170,6 +177,15 @@ footer a {
     width: 40vw;
     border-style: solid;
     border-color: #702632;
+  }
+  footer {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  footer a {
+    display: none;
+  }
+  footer #phone {
+    display: block;
   }
 }
 /*# sourceMappingURL=aboutus.css.map */
