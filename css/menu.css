@@ -95,9 +95,9 @@ header #callbutton {
 
 .headingblock {
   font-family: "Cormorant Upright", serif;
+  text-shadow: 4px 4px 8px #AE1C09;
   color: #069D4A;
   font-size: 2.5rem;
-  background-image: linear-gradient(red green);
 }
 
 .largecontainer {
@@ -259,7 +259,6 @@ footer #phone {
   .headingblock {
     font-family: "Cormorant Upright", serif;
     color: #069D4A;
-    text-shadow: 4px 4px 8px #AE1C09;
     font-size: 4rem;
   }
   .itemDescription h4 {
