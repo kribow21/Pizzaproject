@@ -294,6 +294,7 @@ footer #phone {
   }
   .info a {
     font-size: 1.5em;
+    pointer-events: none;
   }
   .address {
     grid-area: address;
