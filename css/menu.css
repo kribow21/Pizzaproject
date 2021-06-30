@@ -275,6 +275,9 @@ footer #phone {
     bottom: 11vh;
     right: 10vw;
   }
+  #topbutton:active {
+    color: #AE1C09;
+  }
   footer {
     grid-template-columns: repeat(5, 1fr);
     font-size: 1.3rem;
