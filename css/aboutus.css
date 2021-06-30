@@ -152,7 +152,7 @@ footer #phone {
     align-items: center;
     grid-template-columns: 0.4fr 1fr 1fr;
     grid-template-areas: 'logo menu callbutton';
-    background-image: url(https://cdn.pixabay.com/photo/2016/04/30/20/41/banner-1363794_960_720.jpg);
+    background-color: #069D4A;
     background-size: cover;
     width: 100vw;
     height: 20vh;
