@@ -156,9 +156,15 @@ footer{
     font-family: $littlefont;
     background-color:$green;
     width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: $wine;
     a{
         text-decoration: none;
         color: $linen;
+    }
+    #phone{
+        display: none;
     }
 }
 /*Tablet media rules*/
@@ -320,14 +326,14 @@ footer{
         margin-bottom: 3vh;
     }
     footer{
-        font-family: $littlefont;
-        background-color:$green;
-        width: 100vw;
+        grid-template-columns: repeat(5, 1fr);
         a{
-            text-decoration: none;
-            color: $linen;
+            display: none;
         }
-    }
+        #phone{
+            display: block;
+        }
+}
 }
 
 

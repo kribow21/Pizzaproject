@@ -224,11 +224,18 @@ footer {
   font-family: "Dosis", sans-serif;
   background-color: #069D4A;
   width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: #702632;
 }
 
 footer a {
   text-decoration: none;
   color: #F3E9DC;
+}
+
+footer #phone {
+  display: none;
 }
 
 /*Tablet media rules*/
@@ -417,13 +424,13 @@ footer a {
     margin-bottom: 3vh;
   }
   footer {
-    font-family: "Dosis", sans-serif;
-    background-color: #069D4A;
-    width: 100vw;
+    grid-template-columns: repeat(5, 1fr);
   }
   footer a {
-    text-decoration: none;
-    color: #F3E9DC;
+    display: none;
+  }
+  footer #phone {
+    display: block;
   }
 }
 /*# sourceMappingURL=index.css.map */
