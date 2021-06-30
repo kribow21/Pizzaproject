@@ -230,12 +230,12 @@ footer #phone {
     margin: 1vh 6vw 1vh 6vw;
     font-size: 1.4em;
   }
-  #tabletimg {
+  main #tabletimg {
     grid-area: image1;
     border-style: solid;
     border-color: #702632;
   }
-  #pizzaimg {
+  main #pizzaimg {
     grid-area: image2;
     display: block;
     height: 49vh;
@@ -243,7 +243,7 @@ footer #phone {
     border-style: solid;
     border-color: #702632;
   }
-  #foodimg {
+  main #foodimg {
     grid-area: image3;
     display: block;
     height: 49vh;

@@ -132,7 +132,6 @@ footer{
                 font-size: 1.4em;
             }
     }
-    }
     #tabletimg{
         grid-area: image1;
         @include borderstyle();
@@ -151,6 +150,8 @@ footer{
         width: 40vw;
         @include borderstyle();
     }
+    }
+
     footer{
         grid-template-columns: repeat(5, 1fr);
         font-size: 1.3rem;
