@@ -95,7 +95,7 @@ header #callbutton {
 
 .headingblock {
   font-family: "Cormorant Upright", serif;
-  color: #AE1C09;
+  color: #069D4A;
   font-size: 2.5rem;
   background-image: linear-gradient(red green);
 }
@@ -125,7 +125,7 @@ header #callbutton {
   font-family: "Dosis", sans-serif;
   font-size: 1.2em;
   position: fixed;
-  bottom: 6vh;
+  bottom: 10vh;
   right: 10vw;
   border-style: groove;
   border-radius: 8px;
@@ -168,7 +168,7 @@ footer #phone {
   }
   #menuNav .headingblock {
     font-family: "Cormorant Upright", serif;
-    color: #AE1C09;
+    color: #069D4A;
     font-size: 2.5rem;
   }
   .largecontainer {
@@ -181,7 +181,7 @@ footer #phone {
   }
   #topbutton {
     font-size: 1.5em;
-    bottom: 17vh;
+    bottom: 8vh;
     right: 10vw;
   }
 }
@@ -254,13 +254,12 @@ footer #phone {
   }
   .headingblock {
     font-family: "Cormorant Upright", serif;
-    color: #F3E9DC;
+    color: #069D4A;
     font-size: 4rem;
-    background-image: url(https://images.unsplash.com/photo-1528082449820-2286cc8464ad?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTEzMXx8cmVkJTIwdGV4dHVyZXxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
   }
   #topbutton {
     font-size: 1.5em;
-    bottom: 5vh;
+    bottom: 11vh;
     right: 10vw;
   }
   footer {
