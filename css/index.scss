@@ -10,7 +10,7 @@ $littlefont: 'Dosis', sans-serif;
     padding: 0;
 }
 body{
-    background-color: #F3E9DC;
+    background-color: $linen;
 }
 /*border style for images*/ 
 @mixin borderstyle {
@@ -274,9 +274,9 @@ footer{
     }
     #mainphoto{
         grid-area: mainphoto;
-        width: 82%;
-        justify-self: end;
-        margin-left: 2%;
+        width: 78%;
+        justify-self: start;
+        margin-left: 15%;
         margin-right: 2%;
         
     }
@@ -284,7 +284,7 @@ footer{
         grid-area: mainphoto2;
         object-fit: cover;
         width: 94%;
-        margin-left: 2%;
+        margin-left: 0%;
         margin-right: 2%;
     }
     #mainphoto3{

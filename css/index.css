@@ -376,16 +376,16 @@ footer #phone {
   }
   #mainphoto {
     grid-area: mainphoto;
-    width: 82%;
-    justify-self: end;
-    margin-left: 2%;
+    width: 78%;
+    justify-self: start;
+    margin-left: 15%;
     margin-right: 2%;
   }
   #mainphoto2 {
     grid-area: mainphoto2;
     object-fit: cover;
     width: 94%;
-    margin-left: 2%;
+    margin-left: 0%;
     margin-right: 2%;
   }
   #mainphoto3 {
