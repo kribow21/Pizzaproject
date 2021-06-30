@@ -163,11 +163,6 @@ footer{
 }
 /*Tablet media rules*/
 @media only screen and (min-width:600px){
-        header{
-        #callbutton{
-            pointer-events: none;
-        }
-    }
     main{
         grid-template-areas:
         'heading heading'
@@ -257,6 +252,7 @@ footer{
 }
 /*Desktop media queries*/
 @media only screen and (min-width:1025px){
+    @import "_desktopnav";
     main{
         grid-template-areas:
         'heading heading heading'
@@ -323,5 +319,16 @@ footer{
     .gmap_canvas{
         margin-bottom: 3vh;
     }
+    footer{
+        font-family: $littlefont;
+        background-color:$green;
+        width: 100vw;
+        a{
+            text-decoration: none;
+            color: $linen;
+        }
+    }
 }
+
+
 

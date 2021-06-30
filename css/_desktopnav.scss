@@ -1,0 +1,56 @@
+header{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.4fr 1fr 1fr;
+    grid-template-areas:
+    'logo menu callbutton';
+    background-image: url(https://cdn.pixabay.com/photo/2016/04/30/20/41/banner-1363794_960_720.jpg);
+    background-size: cover;
+    width: 100vw;
+    height:20vh;
+    #navToggle:checked ~ #hamburgernav{
+        display: none;
+    }
+    #hamicon{
+        display: none;
+    }
+    #navToggle{
+        display: none;
+    }
+    #hamburgernav > a{
+        font-size: 1.5rem;
+        padding: 15px;
+        color:$linen;
+    }
+    #desktoplinks{
+        display: block;
+        grid-area: menu;
+        font-size: 2.5rem;
+        color: $linen;
+        font-family: $bigfont;
+        
+        a{
+            text-decoration: none;
+            color: $linen;
+            padding: 10px;
+
+        }
+
+    }
+    #logo{
+        grid-area: logo;
+        height: 18vh;
+
+    }
+    #callbutton{
+        grid-area: callbutton;
+        justify-self: end;
+        display: inline-block;
+        background-color: $green;
+        margin-right: 3vw;
+        color: linen;
+        padding: 1vw;
+        font-size: 1.1rem;
+        pointer-events: none;
+    }
+}

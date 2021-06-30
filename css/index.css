@@ -45,6 +45,10 @@ header #hamburgernav > a {
   font-family: "Cormorant Upright", serif;
 }
 
+header #desktoplinks {
+  display: none;
+}
+
 header #hamicon {
   margin-right: 20vw;
 }
@@ -229,9 +233,6 @@ footer a {
 
 /*Tablet media rules*/
 @media only screen and (min-width: 600px) {
-  header #callbutton {
-    pointer-events: none;
-  }
   main {
     grid-template-areas: 'heading heading' 'mainphoto textone' 'texttwo mainphoto2' 'block block' 'info address' 'map map';
     grid-template-columns: 50% 50%;
@@ -309,6 +310,57 @@ footer a {
 
 /*Desktop media queries*/
 @media only screen and (min-width: 1025px) {
+  header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.4fr 1fr 1fr;
+    grid-template-areas: 'logo menu callbutton';
+    background-image: url(https://cdn.pixabay.com/photo/2016/04/30/20/41/banner-1363794_960_720.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 20vh;
+  }
+  header #navToggle:checked ~ #hamburgernav {
+    display: none;
+  }
+  header #hamicon {
+    display: none;
+  }
+  header #navToggle {
+    display: none;
+  }
+  header #hamburgernav > a {
+    font-size: 1.5rem;
+    padding: 15px;
+    color: #F3E9DC;
+  }
+  header #desktoplinks {
+    display: block;
+    grid-area: menu;
+    font-size: 2.5rem;
+    color: #F3E9DC;
+    font-family: "Cormorant Upright", serif;
+  }
+  header #desktoplinks a {
+    text-decoration: none;
+    color: #F3E9DC;
+    padding: 10px;
+  }
+  header #logo {
+    grid-area: logo;
+    height: 18vh;
+  }
+  header #callbutton {
+    grid-area: callbutton;
+    justify-self: end;
+    display: inline-block;
+    background-color: #069D4A;
+    margin-right: 3vw;
+    color: linen;
+    padding: 1vw;
+    font-size: 1.1rem;
+    pointer-events: none;
+  }
   main {
     grid-template-areas: 'heading heading heading' 'mainphoto mainphoto2 mainphoto3' 'textone texttwo textthree' 'video video video' 'block block block' 'info mainphoto4 address' 'map map map';
     grid-template-columns: 1fr 1fr 1fr;
@@ -363,6 +415,15 @@ footer a {
   }
   .gmap_canvas {
     margin-bottom: 3vh;
+  }
+  footer {
+    font-family: "Dosis", sans-serif;
+    background-color: #069D4A;
+    width: 100vw;
+  }
+  footer a {
+    text-decoration: none;
+    color: #F3E9DC;
   }
 }
 /*# sourceMappingURL=index.css.map */

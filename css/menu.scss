@@ -130,6 +130,7 @@ footer{
 }
 /*Desktop media rules*/
 @media only screen and(min-width:1025px){
+    @import "_desktopnav";
     #pizzaimage{
         h1{
         font-family: $bigfont;
