@@ -57,10 +57,12 @@ main{
     h4{
         font-family: $bigfont;
         font-size: 1.5rem;
+        color: $red;
     }
     p{
         font-family: $littlefont;
         padding: 8px;
+        color: $wine;
     }
 }
 #topbutton{
@@ -150,6 +152,17 @@ footer{
         font-family: $bigfont;
         color: $green;
         font-size: 4rem;
+    }
+    .itemDescription{
+        h4{
+            font-family: $bigfont;
+            font-size: 2rem;
+        }
+        p{
+            font-family: $littlefont;
+            padding: 8px;
+            font-size: 1.6em;
+        }
     }
     #topbutton{
         font-size: 1.5em;

@@ -113,11 +113,13 @@ header #callbutton {
 .itemDescription h4 {
   font-family: "Cormorant Upright", serif;
   font-size: 1.5rem;
+  color: #AE1C09;
 }
 
 .itemDescription p {
   font-family: "Dosis", sans-serif;
   padding: 8px;
+  color: #702632;
 }
 
 #topbutton {
@@ -256,6 +258,15 @@ footer #phone {
     font-family: "Cormorant Upright", serif;
     color: #069D4A;
     font-size: 4rem;
+  }
+  .itemDescription h4 {
+    font-family: "Cormorant Upright", serif;
+    font-size: 2rem;
+  }
+  .itemDescription p {
+    font-family: "Dosis", sans-serif;
+    padding: 8px;
+    font-size: 1.6em;
   }
   #topbutton {
     font-size: 1.5em;
