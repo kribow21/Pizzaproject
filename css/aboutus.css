@@ -89,7 +89,22 @@ main section p {
   margin: 2vh 6vw 2vh 6vw;
 }
 
-main img {
+main #tabletimg {
+  display: none;
+}
+
+main #pizzamaking {
+  width: 90vw;
+  margin-top: 3vh;
+  border-style: solid;
+  border-color: #702632;
+}
+
+main #pizzaimg {
+  display: none;
+}
+
+main #foodimg {
   display: none;
 }
 
@@ -142,6 +157,9 @@ footer #phone {
     height: 99%;
     border-style: solid;
     border-color: #702632;
+  }
+  main #pizzamaking {
+    display: none;
   }
 }
 

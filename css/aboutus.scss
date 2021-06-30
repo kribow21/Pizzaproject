@@ -38,7 +38,18 @@ main{
             margin:2vh 6vw 2vh 6vw;
         }
     }
-    img{
+    #tabletimg{
+        display: none;
+    }
+    #pizzamaking{
+        width: 90vw;
+        margin-top: 3vh;
+        @include borderstyle();
+    }
+    #pizzaimg{
+        display: none;
+    }
+    #foodimg{
         display: none;
     }
 }
@@ -94,7 +105,9 @@ footer{
         width: 99%;
         height: 99%;
         @include borderstyle();
-        
+    }
+    #pizzamaking{
+        display: none;
     }
     }
 }
@@ -141,7 +154,6 @@ footer{
     footer{
         grid-template-columns: repeat(5, 1fr);
         font-size: 1.3rem;
-
         a{
             display: none;
         }

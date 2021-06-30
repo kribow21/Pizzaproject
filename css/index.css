@@ -96,7 +96,8 @@ main .block span {
   font-size: 2em;
   font-family: "Cormorant Upright", serif;
   color: #F3E9DC;
-  margin-left: 7vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 #mainphoto {
@@ -255,11 +256,12 @@ footer #phone {
   }
   main .block span {
     font-size: 3em;
-    margin-left: 9vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
   #mainphoto {
     grid-area: mainphoto;
-    width: 100%;
+    width: 98%;
     margin: 0%;
   }
   #mainphoto2 {

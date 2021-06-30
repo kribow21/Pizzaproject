@@ -41,7 +41,8 @@ main{
             font-size: 2em;
             font-family: $bigfont;
             color: $linen;
-            margin-left:7vw ;
+            margin-left: 10vw;
+            margin-right: 10vw;
 
         }
         background-color: $wine;
@@ -188,13 +189,14 @@ footer{
             grid-area: block;
             span{
                 font-size: 3em;
-                margin-left: 9vw;
+                margin-left: 10vw;
+                margin-right: 10vw;
             }
         }
     }
     #mainphoto{
         grid-area: mainphoto;
-        width: 100%;
+        width: 98%;
         margin: 0%;
         
     }
