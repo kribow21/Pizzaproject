@@ -425,6 +425,7 @@ footer #phone {
   }
   footer {
     grid-template-columns: repeat(5, 1fr);
+    font-size: 1.3rem;
   }
   footer a {
     display: none;
