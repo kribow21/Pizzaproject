@@ -77,11 +77,16 @@ main{
 footer{
     font-family: $littlefont;
     background-color: $green;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: $wine;
     a{
         text-decoration: none;
         color: $linen;
         background-color: $green;
-
+    }
+    #phone{
+        display: none;
     }
 }
 /*Tablet media rules*/
@@ -150,5 +155,14 @@ footer{
         font-size: 1.5em;
         bottom: 5vh;
         right: 10vw;
+    }
+    footer{
+        grid-template-columns: repeat(5, 1fr);
+        a{
+            display: none;
+        }
+        #phone{
+            display: block;
+        }
     }
 }
