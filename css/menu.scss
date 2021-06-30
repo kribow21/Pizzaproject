@@ -136,11 +136,13 @@ footer{
     #pizzaimage{
         h1{
         font-family: $bigfont;
-        color: $linen;
+        color: white;
+        text-shadow: 4px 4px 8px $green;
         font-size: 8rem;
+        text-transform: uppercase;
         position:absolute;
-        left: 42vw;
-        top: 25vh;
+        left: 36vw;
+        top: 34vh;
     }
         img{
             display: block;
@@ -151,6 +153,7 @@ footer{
     .headingblock{
         font-family: $bigfont;
         color: $green;
+        text-shadow: 4px 4px 8px $red;
         font-size: 4rem;
     }
     .itemDescription{

@@ -243,11 +243,13 @@ footer #phone {
   }
   #pizzaimage h1 {
     font-family: "Cormorant Upright", serif;
-    color: #F3E9DC;
+    color: white;
+    text-shadow: 4px 4px 8px #069D4A;
     font-size: 8rem;
+    text-transform: uppercase;
     position: absolute;
-    left: 42vw;
-    top: 25vh;
+    left: 36vw;
+    top: 34vh;
   }
   #pizzaimage img {
     display: block;
@@ -257,6 +259,7 @@ footer #phone {
   .headingblock {
     font-family: "Cormorant Upright", serif;
     color: #069D4A;
+    text-shadow: 4px 4px 8px #AE1C09;
     font-size: 4rem;
   }
   .itemDescription h4 {
