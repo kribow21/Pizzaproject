@@ -1,7 +1,7 @@
 header{
     display: grid;
     align-items: center;
-    grid-template-columns: 0.4fr 1fr 1fr;
+    grid-template-columns: 0.3fr 1fr auto;
     grid-template-areas:
     'logo menu callbutton';
     background-color: $green;
@@ -28,11 +28,13 @@ header{
         font-size: 2.5rem;
         color: $linen;
         font-family: $bigfont;
+        justify-self: left;
         
         a{
             text-decoration: none;
             color: $linen;
             padding: 10px;
+            justify-self: start;
             &:hover {
                 font-size: 1.2em;
                 text-shadow: 2px 2px $red;

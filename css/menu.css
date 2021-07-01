@@ -211,7 +211,7 @@ footer #phone {
   header {
     display: grid;
     align-items: center;
-    grid-template-columns: 0.4fr 1fr 1fr;
+    grid-template-columns: 0.3fr 1fr auto;
     grid-template-areas: 'logo menu callbutton';
     background-color: #069D4A;
     background-size: cover;
@@ -238,11 +238,13 @@ footer #phone {
     font-size: 2.5rem;
     color: #F3E9DC;
     font-family: "Cormorant Upright", serif;
+    justify-self: left;
   }
   header #desktoplinks a {
     text-decoration: none;
     color: #F3E9DC;
     padding: 10px;
+    justify-self: start;
   }
   header #desktoplinks a:hover {
     font-size: 1.2em;
