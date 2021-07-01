@@ -33,6 +33,13 @@ header{
             text-decoration: none;
             color: $linen;
             padding: 10px;
+            &:hover {
+                font-size: 1.2em;
+                text-shadow: 2px 2px $red;
+            }
+            &:active {
+                color: $wine;
+            }
 
         }
 

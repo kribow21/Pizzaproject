@@ -234,6 +234,13 @@ footer #phone {
     color: #F3E9DC;
     padding: 10px;
   }
+  header #desktoplinks a:hover {
+    font-size: 1.2em;
+    text-shadow: 2px 2px #AE1C09;
+  }
+  header #desktoplinks a:active {
+    color: #702632;
+  }
   header #logo {
     grid-area: logo;
     height: 18vh;
