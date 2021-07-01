@@ -63,6 +63,9 @@ header #logo {
 }
 
 header #callbutton {
+  position: fixed;
+  left: 70vw;
+  top: 1vh;
   display: inline-block;
   background-color: #069D4A;
   border-radius: 8px;
@@ -169,6 +172,7 @@ footer #phone {
 /*Tablet media rules*/
 @media only screen and (min-width: 600px) {
   header #callbutton {
+    position: static;
     pointer-events: none;
   }
   #pizzaimage h1 {

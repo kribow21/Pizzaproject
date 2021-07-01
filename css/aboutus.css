@@ -58,6 +58,9 @@ header #logo {
 }
 
 header #callbutton {
+  position: fixed;
+  left: 70vw;
+  top: 1vh;
   display: inline-block;
   background-color: #069D4A;
   border-radius: 8px;
@@ -137,6 +140,7 @@ footer #phone {
 @media only screen and (min-width: 600px) {
   header #callbutton {
     pointer-events: none;
+    position: static;
   }
   main {
     grid-template-areas: 'image1 section1' 'image1 section2' 'image1 section3';
