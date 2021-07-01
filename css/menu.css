@@ -101,6 +101,10 @@ header #callbutton:active {
   color: #F3E9DC;
 }
 
+#menuNav a:active {
+  text-decoration: none;
+}
+
 .headingblock {
   font-family: "Cormorant Upright", serif;
   text-shadow: 4px 4px 8px #AE1C09;
@@ -270,6 +274,9 @@ footer #phone {
     display: block;
     width: 100%;
     height: 40vh;
+  }
+  #menuNav:hover {
+    text-shadow: 2px 2px #069D4A;
   }
   .headingblock {
     font-family: "Cormorant Upright", serif;
