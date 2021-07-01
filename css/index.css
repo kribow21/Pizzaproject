@@ -45,6 +45,10 @@ header #hamburgernav > a {
   font-family: "Cormorant Upright", serif;
 }
 
+header #hamburgernav > a:active {
+  color: #AE1C09;
+}
+
 header #desktoplinks {
   display: none;
 }
@@ -68,6 +72,10 @@ header #callbutton {
   font-size: 1.1rem;
   border-style: solid;
   border-color: #702632;
+}
+
+header #callbutton:active {
+  background-color: #AE1C09;
 }
 
 main {

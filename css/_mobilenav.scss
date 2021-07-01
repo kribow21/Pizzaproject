@@ -26,7 +26,10 @@ header{
         font-size: 1.5rem;
         padding: 15px;
         color: $linen;
-        font-family: $bigfont;  
+        font-family: $bigfont;
+        &:active {
+            color: $red;
+        }
     }
     #desktoplinks{
         display: none;
@@ -46,6 +49,9 @@ header{
         padding: 1vw;
         font-family: $littlefont;
         font-size: 1.1rem;
-        @include borderstyle();    
+        @include borderstyle();
+        &:active {
+            background-color: $red ;
+        }
     }
 }
