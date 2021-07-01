@@ -454,6 +454,9 @@ footer #phone {
     grid-template-columns: repeat(5, 1fr);
     font-size: 1.3rem;
   }
+  footer h3 {
+    text-decoration: underline;
+  }
   footer a {
     display: none;
   }

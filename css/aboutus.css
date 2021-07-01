@@ -239,7 +239,7 @@ footer #phone {
   }
   main {
     grid-template-areas: 'image1 section1' 'section2 image2' 'image3 section3';
-    grid-template-rows: repeat(3, 60vh);
+    grid-template-rows: repeat(3, 55vh);
   }
   main section h1 {
     text-align: center;
@@ -275,6 +275,9 @@ footer #phone {
   footer {
     grid-template-columns: repeat(5, 1fr);
     font-size: 1.3rem;
+  }
+  footer h3 {
+    text-decoration: underline;
   }
   footer a {
     display: none;

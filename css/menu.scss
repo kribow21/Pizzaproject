@@ -195,6 +195,9 @@ footer{
     footer{
         grid-template-columns: repeat(5, 1fr);
         font-size: 1.3rem;
+        h3{
+            text-decoration: underline;
+        }
         a{
             display: none;
         }
