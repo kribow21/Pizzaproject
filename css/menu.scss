@@ -173,6 +173,15 @@ footer{
         color: $green;
         font-size: 4rem;
     }
+    .largecontainer{
+        grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .smallcontainer{
+        grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+        grid-template-rows: 1fr;
+        padding-bottom: 5vh;
+    }
     .itemDescription{
         h4{
             font-family: $bigfont;
