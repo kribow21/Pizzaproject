@@ -297,11 +297,9 @@ footer{
     #mainphoto3{
         display: block;
         grid-area: mainphoto3;
-        width: 92%;
+        width: 86%;
         justify-self: start;
-        margin-left: 2%;
-        margin-right: 2%;
-
+        margin: 2% 2% 0 2%;
     }
     #mainphoto4{
         grid-area: mainphoto4;
