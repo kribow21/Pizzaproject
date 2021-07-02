@@ -3,13 +3,13 @@ header{
     justify-items: center;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
-    background-color: $green ;
+    background-image: url(https://images.unsplash.com/photo-1616682876554-c843263a28a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
     width: 100vw;
     #hamburgernav{
         display: none;
         position: absolute;
         top: 10vh;
-        background-color: $green;
+        background-color:$wine ;
         height: 17vh;
         width: 50vw;
         z-index: 2;
