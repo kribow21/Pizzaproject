@@ -194,6 +194,11 @@ main .block span {
 .info a {
   color: #069D4A;
   font-size: 1.3em;
+  text-decoration: none;
+}
+
+.info a:active {
+  color: #AE1C09;
 }
 
 .address {
@@ -309,6 +314,8 @@ footer #phone {
   }
   .info a {
     font-size: 1.5em;
+  }
+  .info a #phone {
     pointer-events: none;
   }
   .address {
@@ -447,6 +454,9 @@ footer #phone {
   }
   .info {
     align-self: center;
+  }
+  .info #phone {
+    pointer-events: none;
   }
   .gmap_canvas {
     margin-bottom: 3vh;
